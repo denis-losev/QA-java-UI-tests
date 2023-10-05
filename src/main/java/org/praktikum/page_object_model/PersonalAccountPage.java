@@ -5,11 +5,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.praktikum.api.Constants;
+import org.praktikum.api.Requests;
 
 import java.time.Duration;
 
-public class PersonalAccountPage extends Constants {
+public class PersonalAccountPage extends Requests {
     private final WebDriver webdriver;
     private final By description = By.xpath("//p[@class='Account_text__fZAIn text text_type_main-default']");
     private final By logOutBtn = By.xpath("//button[contains(text(),'Выход')]");

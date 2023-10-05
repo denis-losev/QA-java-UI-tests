@@ -20,7 +20,7 @@ public class GoToPersonalAccountTest extends TestPattern {
     public void getUrl() {
         RegisterUser registerUser = new RegisterUser(user);
         registerUser.registerUser();
-        webdriver.get(getAPP_URL() + "/login");
+        webdriver.get(APP_URL + "/login");
     }
 
     @Test

@@ -19,7 +19,7 @@ public class MainPage {
     public String getCollectBurgerHeaderText() {
         return webdriver.findElement(collectBurgerHeader).getText();
     }
-    @Step("Кликаем по кнопке входа")
+
     public LoginPage clickLoginBtn(String btn) {
         webdriver.findElement(By.xpath(btn)).click();
         new WebDriverWait(webdriver, Duration.ofSeconds(3))

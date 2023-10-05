@@ -5,10 +5,10 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.praktikum.api.Constants;
+import org.praktikum.api.Requests;
 import org.praktikum.api.User;
 
-public class TestPattern extends Constants {
+public class TestPattern extends Requests {
     protected WebDriver webdriver;
     protected User user;
     public static WebDriver getWebDriver(String browser){

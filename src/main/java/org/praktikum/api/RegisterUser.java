@@ -2,15 +2,14 @@ package org.praktikum.api;
 
 import io.qameta.allure.Step;
 
-public class RegisterUser extends Constants{
+public class RegisterUser extends Requests {
     User user;
 
     public RegisterUser(User user) {
         this.user = user;
     }
 
-    @Step("Регистрация пользователя")
     public void registerUser() {
-        doPostRequest(getREGISTER_USER_URL(), user);
+        doPostRequest(REGISTER_USER_URL, user);
     }
 }

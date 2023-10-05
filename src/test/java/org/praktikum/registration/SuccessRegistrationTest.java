@@ -19,7 +19,7 @@ public class SuccessRegistrationTest extends TestPattern {
     User user = new User();
     @Before
     public void getUrl() {
-        webdriver.get(getAPP_URL() + "/register");
+        webdriver.get(APP_URL + "/register");
     }
 
     @Test

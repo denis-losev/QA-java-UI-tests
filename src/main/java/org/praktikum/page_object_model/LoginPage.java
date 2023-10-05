@@ -23,17 +23,18 @@ public class LoginPage {
     public String getLoginButtonText() {
         return webdriver.findElement(loginBtn).getText();
     }
-    @Step("Логин пользователя в системе")
+
     public MainPage loginUser(@NotNull User user) {
         fillLoginForm(user.getEmail(), user.getPassword());
         clickLoginBtn();
         return new MainPage(webdriver);
     }
-    @Step("Заполнение формы входа")
+
     public void fillLoginForm(String email, String password) {
         webdriver.findElement(emailField).sendKeys(email);
         webdriver.findElement(passwordField).sendKeys(password);
     }
+
     public void clickLoginBtn() {
         webdriver.findElement(loginBtn).click();
     }

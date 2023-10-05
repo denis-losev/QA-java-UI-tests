@@ -20,7 +20,7 @@ public class LogOutTest extends TestPattern {
     public void getUrl() {
         RegisterUser registerUser = new RegisterUser(user);
         registerUser.registerUser();
-        webdriver.get(getAPP_URL());
+        webdriver.get(APP_URL);
     }
 
     @Test

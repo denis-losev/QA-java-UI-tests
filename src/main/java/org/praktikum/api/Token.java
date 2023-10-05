@@ -5,7 +5,7 @@ import io.qameta.allure.Step;
 public class Token {
     private String success, accessToken, refreshToken;
     private User user;
-    @Step("Получение accessToken")
+
     public String getAccessToken() {
         return accessToken;
     }

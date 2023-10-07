@@ -1,0 +1,11 @@
+org/praktikum/page_object_model/RegistrationPage.class
+org/praktikum/api/Requests.class
+org/praktikum/page_object_model/PersonalAccountPage.class
+org/praktikum/page_object_model/ConstructorModal.class
+org/praktikum/page_object_model/LoginPage.class
+org/praktikum/page_object_model/MainPage.class
+org/praktikum/api/RegisterUser.class
+org/praktikum/api/User.class
+org/praktikum/api/Endpoints.class
+org/praktikum/api/Token.class
+org/praktikum/api/LoginUser.class

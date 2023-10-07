@@ -1,0 +1,8 @@
+org/praktikum/registration/SuccessRegistrationTest.class
+org/praktikum/TestPattern.class
+org/praktikum/transitions/GoToConstructorPageTest.class
+org/praktikum/transitions/ConstructorTest.class
+org/praktikum/login/LoginTest.class
+org/praktikum/registration/ErrorRegistrationTest.class
+org/praktikum/transitions/GoToPersonalAccountTest.class
+org/praktikum/login/LogOutTest.class
